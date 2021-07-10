@@ -1,10 +1,10 @@
-import styled from 'styled-components'
-import { Link } from 'react-scroll'
+import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
-  /* margin-top: -80px;  */
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@ export const Nav = styled.nav`
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
-`
+`;
 
 export const NavContainer = styled.div`
   display: flex;
@@ -26,7 +26,7 @@ export const NavContainer = styled.div`
   width: 100%;
   max-width: 1100px;
   padding: 0 24px;
-`
+`;
 
 export const NavLogo = styled.div`
   color: #fff;
@@ -38,7 +38,7 @@ export const NavLogo = styled.div`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
-`
+`;
 
 export const MobileNav = styled.div`
   display: none;
@@ -53,7 +53,7 @@ export const MobileNav = styled.div`
     cursor: pointer;
     color: #fff;
   }
-`
+`;
 
 export const NavMenu = styled.ul`
   display: flex;
@@ -65,10 +65,10 @@ export const NavMenu = styled.ul`
   @media screen and (max-width: 768px) {
     display: none;
   }
-`
+`;
 export const NavItem = styled.li`
   height: 80px;
-`
+`;
 
 export const NavLink = styled(Link)`
   color: #fff;
@@ -82,4 +82,4 @@ export const NavLink = styled(Link)`
   &.active {
     border-bottom: 3px solid #fff;
   }
-`
+`;
