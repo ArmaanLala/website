@@ -1,8 +1,8 @@
 import React from 'react';
 import {
-  InfoContainer,
-  InfoWrapper,
-  InfoRow,
+  ExperienceContainer,
+  ExperienceWrapper,
+  ExperienceRow,
   Col1,
   Col2,
   TextWrapper,
@@ -11,9 +11,9 @@ import {
   Subtitle,
   ImgWrap,
   Img,
-} from './InfoElements';
+} from '../Experience/ExperienceElements';
 
-function Info(props: {
+function Experience(props: {
   lightBg: boolean;
   lightText: boolean;
   darkText: boolean;
@@ -25,9 +25,9 @@ function Info(props: {
   id: string;
 }) {
   return (
-    <InfoContainer lightBg={props.lightBg} id={props.id}>
-      <InfoWrapper>
-        <InfoRow imgStart={props.imgStart}>
+    <ExperienceContainer lightBg={props.lightBg} id={props.id}>
+      <ExperienceWrapper>
+        <ExperienceRow imgStart={props.imgStart}>
           <Col1>
             <TextWrapper>
               <TopLine>{props.topLine}</TopLine>
@@ -40,10 +40,10 @@ function Info(props: {
               <Img src={props.src} />
             </ImgWrap>
           </Col2>
-        </InfoRow>
-      </InfoWrapper>
-    </InfoContainer>
+        </ExperienceRow>
+      </ExperienceWrapper>
+    </ExperienceContainer>
   );
 }
 
-export default Info;
+export default Experience;

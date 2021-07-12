@@ -17,18 +17,18 @@ interface SubProps {
   darkText: boolean;
 }
 
-interface Props {
-  lightBg: boolean;
-  lightText: boolean;
-  darkText: boolean;
-  headline: string;
-  subtitle: string;
-  src: string;
-  imgStart: boolean;
-  id: string;
-}
+// interface AllProps {
+//   lightBg: boolean;
+//   lightText: boolean;
+//   darkText: boolean;
+//   headline: string;
+//   subtitle: string;
+//   src: string;
+//   imgStart: boolean;
+//   id: string;
+// }
 
-export const InfoContainer = styled.div<ContainerProps>`
+export const AboutContainer = styled.div<ContainerProps>`
   color: #fff;
   background: ${(props) => (props.lightBg ? '#f9f9f9' : '#010606')};
   @media screen and (max-width: 768px) {
@@ -36,7 +36,7 @@ export const InfoContainer = styled.div<ContainerProps>`
   }
 `;
 
-export const InfoWrapper = styled.div`
+export const AboutWrapper = styled.div`
   display: grid;
   z-index: 1;
   height: 860px;
@@ -48,7 +48,7 @@ export const InfoWrapper = styled.div`
   justify-content: center;
 `;
 
-export const InfoRow = styled.div<RowProps>`
+export const AboutRow = styled.div<RowProps>`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
