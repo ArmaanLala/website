@@ -21,7 +21,7 @@ function Hero() {
           Mathmatics and Computer Science Student at Georgia Institute of
           Technology
         </HeroP>
-        <HeroP>Freelance Developer</HeroP>
+        <HeroP>Software Developer</HeroP>
       </HeroContent>
     </HeroContainer>
   );

@@ -5,6 +5,7 @@ import { about, experience } from '../components/About/data';
 import Navbar from '../components/Navbar';
 import SideBar from '../components/Sidebar';
 import Experience from '../components/Experience';
+import Skills from '../components/Skills';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ function Home() {
       <Hero />
       <About {...about} />
       <Experience {...experience} />
+      <Skills />
     </div>
   );
 }
