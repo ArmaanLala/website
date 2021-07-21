@@ -41,20 +41,44 @@ function Navbar(props: { toggle: () => void }) {
               smooth={true}
               duration={500}
               spy={true}
-              // isDynamic={true}
               offset={-80}
             >
               About
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="projects">Projects</NavLink>
+            <NavLink
+              to="projects"
+              smooth={true}
+              duration={500}
+              spy={true}
+              offset={-80}
+            >
+              Projects
+            </NavLink>
+          </NavItem>
+
+          <NavItem>
+            <NavLink
+              to="resume"
+              smooth={true}
+              duration={500}
+              spy={true}
+              offset={-80}
+            >
+              Resume
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="classes">Classes</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink to="resume">Resume</NavLink>
+            <NavLink
+              to="skills"
+              smooth={true}
+              duration={500}
+              spy={true}
+              offset={-80}
+            >
+              Skills
+            </NavLink>
           </NavItem>
         </NavMenu>
       </NavContainer>

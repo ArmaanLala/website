@@ -45,7 +45,7 @@ import VueJsSVG from '../../resources/vuejs/vuejs-original.svg';
 
 function Skills() {
   return (
-    <SkillsContainer>
+    <SkillsContainer id="skills">
       <SkillsH1>Proficient Languages</SkillsH1>
       <SkillsWrapper>
         <SkillsCard>
