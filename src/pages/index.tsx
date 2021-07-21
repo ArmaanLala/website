@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import SideBar from '../components/Sidebar';
 import Experience from '../components/Experience';
 import Skills from '../components/Skills';
+import Footer from '../components/Footer';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ function Home() {
       <About {...about} />
       <Experience {...experience} />
       <Skills />
+      <Footer />
     </div>
   );
 }

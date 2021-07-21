@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
-
-export const Nav = styled.nav`
-  background: #000;
+interface Props {
+  readonly scrollNav: boolean;
+}
+export const Nav = styled.nav<Props>`
+  background: ${(props) => (props.scrollNav ? '#000' : 'trasparent')};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -80,6 +82,6 @@ export const NavLink = styled(Link)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid red;
   }
 `;
