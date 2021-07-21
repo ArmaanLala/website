@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/website/static/css/main.4d467896.chunk.css",
-    "main.js": "/website/static/js/main.349df518.chunk.js",
-    "main.js.map": "/website/static/js/main.349df518.chunk.js.map",
+    "main.js": "/website/static/js/main.5167c71d.chunk.js",
+    "main.js.map": "/website/static/js/main.5167c71d.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.c4068114.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.c4068114.js.map",
-    "static/js/2.e9c660b9.chunk.js": "/website/static/js/2.e9c660b9.chunk.js",
-    "static/js/2.e9c660b9.chunk.js.map": "/website/static/js/2.e9c660b9.chunk.js.map",
+    "static/js/2.f9e472f5.chunk.js": "/website/static/js/2.f9e472f5.chunk.js",
+    "static/js/2.f9e472f5.chunk.js.map": "/website/static/js/2.f9e472f5.chunk.js.map",
     "index.html": "/website/index.html",
     "static/css/main.4d467896.chunk.css.map": "/website/static/css/main.4d467896.chunk.css.map",
-    "static/js/2.e9c660b9.chunk.js.LICENSE.txt": "/website/static/js/2.e9c660b9.chunk.js.LICENSE.txt",
-    "static/media/IT.jpg": "/website/static/media/IT.bfe10f9a.jpg",
+    "static/js/2.f9e472f5.chunk.js.LICENSE.txt": "/website/static/js/2.f9e472f5.chunk.js.LICENSE.txt",
+    "static/media/IT.bfe10f9a.jpg": "/website/static/media/IT.bfe10f9a.jpg",
     "static/media/arduino-original.57bea899.svg": "/website/static/media/arduino-original.57bea899.svg",
     "static/media/bash-original.e22f4751.svg": "/website/static/media/bash-original.e22f4751.svg",
     "static/media/bootstrap-plain.51ee03f3.svg": "/website/static/media/bootstrap-plain.51ee03f3.svg",
@@ -26,7 +26,7 @@
     "static/media/git-original.c0835356.svg": "/website/static/media/git-original.c0835356.svg",
     "static/media/heroku-original.a29b3a87.svg": "/website/static/media/heroku-original.a29b3a87.svg",
     "static/media/html5-original.8664168d.svg": "/website/static/media/html5-original.8664168d.svg",
-    "static/media/image.jpg": "/website/static/media/image.83660a3d.jpg",
+    "static/media/image.83660a3d.jpg": "/website/static/media/image.83660a3d.jpg",
     "static/media/java-original.a751bad6.svg": "/website/static/media/java-original.a751bad6.svg",
     "static/media/javascript-original.4c1b5332.svg": "/website/static/media/javascript-original.4c1b5332.svg",
     "static/media/jupyter-original.04826829.svg": "/website/static/media/jupyter-original.04826829.svg",
@@ -47,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c4068114.js",
-    "static/js/2.e9c660b9.chunk.js",
+    "static/js/2.f9e472f5.chunk.js",
     "static/css/main.4d467896.chunk.css",
-    "static/js/main.349df518.chunk.js"
+    "static/js/main.5167c71d.chunk.js"
   ]
 }
