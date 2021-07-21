@@ -1,19 +1,29 @@
 import styled from 'styled-components';
 
 export const ResumeContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 50vh;
   color: #fff;
   background: #f9f9f9;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
 `;
 
 export const ResumeWrapper = styled.div`
-  display: grid;
-  z-index: 1;
-  height: 860px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
   width: 100%;
-  max-width: 10000px;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
@@ -21,32 +31,18 @@ export const ResumeWrapper = styled.div`
 `;
 
 export const ResumeRow = styled.div`
-  display: grid;
-  grid-auto-columns: minmax(auto, 1fr);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
   align-items: center;
-  grid-template-areas: 'col2 col1';
-
-  @media screen and (max-width: 768px) {
-    grid-template-areas: 'col2' 'col1';
-  }
-`;
-
-export const Col1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
-  grid-area: col1;
-`;
-
-export const Col2 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
-  grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  width: 100%;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 `;
 
 export const TopLine = styled.p`
@@ -70,13 +66,14 @@ export const Heading = styled.h1`
   }
 `;
 
-export const Subtitle = styled.p`
+export const Subtitle = styled.a`
   max-width: 600px;
-  margin-bottom: 35px;
+  padding-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
   color: #010606;
   white-space: pre-line;
+  margin: 0 auto;
 `;
 
 export const ImgWrap = styled.div`

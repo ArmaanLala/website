@@ -3,16 +3,10 @@ import {
   ResumeContainer,
   ResumeWrapper,
   ResumeRow,
-  Col1,
-  Col2,
   TextWrapper,
-  TopLine,
   Heading,
   Subtitle,
-  ImgWrap,
-  Img,
 } from './ResumeElements';
-
 function Resume() {
   return (
     <ResumeContainer id="resume">
@@ -22,6 +16,13 @@ function Resume() {
             <Heading>Resume Stuff Here</Heading>
           </TextWrapper>
         </ResumeRow>
+        <Subtitle href="Resume.pdf" target="blank">
+          If the PDF does not load, please click here.
+        </Subtitle>
+        <iframe
+          src="https://drive.google.com/file/d/1RqJHP3iF4Pd16coTWkg_0oQZPwTek1fg/preview"
+          style={{ margin: '0 auto', height: '50vh', width: '80%' }}
+        ></iframe>
       </ResumeWrapper>
     </ResumeContainer>
   );
