@@ -13,31 +13,33 @@ import {
   Img,
 } from '../Experience/ExperienceElements';
 
-function Experience(props: {
-  lightBg: boolean;
-  lightText: boolean;
-  darkText: boolean;
-  headline: string;
-  description: string;
-  topLine: string;
-  src: string;
-  imgStart: boolean;
-  id: string;
-}) {
+import picture from '../../resources/IT.jpg';
+
+function Experience() {
   return (
-    <ExperienceContainer lightBg={props.lightBg} id={props.id}>
+    <ExperienceContainer id="experience">
       <ExperienceWrapper>
-        <ExperienceRow imgStart={props.imgStart}>
+        <ExperienceRow>
           <Col1>
             <TextWrapper>
-              <TopLine>{props.topLine}</TopLine>
-              <Heading lightText={props.lightText}>{props.headline}</Heading>
-              <Subtitle darkText={props.darkText}>{props.description}</Subtitle>
+              <TopLine>No more Generics</TopLine>
+              <Heading>Experience</Heading>
+              <Subtitle>
+                ARCS Student IT Worker (2020 - 2021): Diagnose hardware,
+                software, and network problems, configuring, installing and
+                maintaining laptops, workstations, and servers. Perform
+                maintenance on all different operating systems used at Georgia
+                Tech from, RedHat Linux, Windows, to MacOS. The Coder School
+                (2018-19): Instructed kids between the ages of 8–16 in 1–on–1
+                lesson on various aspects of programming with either Scratch or
+                Python. Led summer classes in programming with class sizes up to
+                20 students.
+              </Subtitle>
             </TextWrapper>
           </Col1>
           <Col2>
             <ImgWrap>
-              <Img src={props.src} />
+              <Img src={picture} />
             </ImgWrap>
           </Col2>
         </ExperienceRow>

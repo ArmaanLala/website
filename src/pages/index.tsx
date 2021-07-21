@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Hero from '../components/Hero';
 import About from '../components/About';
-import { about, experience } from '../components/About/data';
 import Navbar from '../components/Navbar';
 import SideBar from '../components/Sidebar';
 import Experience from '../components/Experience';
@@ -19,8 +18,8 @@ function Home() {
       <SideBar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Hero />
-      <About {...about} />
-      <Experience {...experience} />
+      <About />
+      <Experience />
       <Skills />
       <Footer />
     </div>

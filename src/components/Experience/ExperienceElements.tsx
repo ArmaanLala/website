@@ -1,36 +1,8 @@
 import styled from 'styled-components';
 
-interface ContainerProps {
-  lightBg: boolean;
-  id: string;
-}
-
-interface RowProps {
-  imgStart: boolean;
-}
-
-interface HeadingProps {
-  lightText: boolean;
-}
-
-interface SubProps {
-  darkText: boolean;
-}
-
-// interface AllProps {
-//   lightBg: boolean;
-//   lightText: boolean;
-//   darkText: boolean;
-//   headline: string;
-//   subtitle: string;
-//   src: string;
-//   imgStart: boolean;
-//   id: string;
-// }
-
-export const ExperienceContainer = styled.div<ContainerProps>`
+export const ExperienceContainer = styled.div`
   color: #fff;
-  background: ${(props) => (props.lightBg ? '#f9f9f9' : '#010606')};
+  background: #f9f9f9;
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -48,16 +20,14 @@ export const ExperienceWrapper = styled.div`
   justify-content: center;
 `;
 
-export const ExperienceRow = styled.div<RowProps>`
+export const ExperienceRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: ${({ imgStart }) =>
-    imgStart ? `'col2 col1'` : `'col1 col2'`};
+  grid-template-areas: 'col2 col1';
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+    grid-template-areas: 'col2' 'col1';
   }
 `;
 
@@ -89,23 +59,23 @@ export const TopLine = styled.p`
   margin-bottom: 16px;
 `;
 
-export const Heading = styled.h1<HeadingProps>`
+export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+  color: #010606;
   @media screen and (max-width: 768px) {
     fontsize: 32px;
   }
 `;
 
-export const Subtitle = styled.p<SubProps>`
+export const Subtitle = styled.p`
   max-width: 600px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+  color: #010606;
   white-space: pre-line;
 `;
 

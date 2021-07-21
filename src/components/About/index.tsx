@@ -12,32 +12,30 @@ import {
   ImgWrap,
   Img,
 } from '../About/AboutElements';
+import Picture from '../../resources/image.jpg';
 
-function About(props: {
-  lightBg: boolean;
-  lightText: boolean;
-  darkText: boolean;
-  headline: string;
-  description: string;
-  topLine: string;
-  src: string;
-  imgStart: boolean;
-  id: string;
-}) {
+function About() {
   return (
-    <AboutContainer lightBg={props.lightBg} id={props.id}>
+    <AboutContainer id="about">
       <AboutWrapper>
-        <AboutRow imgStart={props.imgStart}>
+        <AboutRow>
           <Col1>
             <TextWrapper>
-              <TopLine>{props.topLine}</TopLine>
-              <Heading lightText={props.lightText}>{props.headline}</Heading>
-              <Subtitle darkText={props.darkText}>{props.description}</Subtitle>
+              <TopLine>Sick Website Skills</TopLine>
+              <Heading>About Me</Heading>
+              <Subtitle>
+                I am currently a third year student at the Georgia Instutite of
+                Technology, studying for a Bachelor's degree in Mathematics,
+                along with Computer Science, with a concentration on Systems and
+                Architecture, as well as Intelligence.\n\nI plan on pursing a
+                Master's Degree in Computer Science, with a specialization in
+                either Machine Learning, or Computer Architecture.
+              </Subtitle>
             </TextWrapper>
           </Col1>
           <Col2>
             <ImgWrap>
-              <Img src={props.src} />
+              <Img src={Picture} />
             </ImgWrap>
           </Col2>
         </AboutRow>
