@@ -26,7 +26,7 @@ export const ProjectWrapper = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  grid-gap: 16px;
+  grid-gap: 20px;
   padding: 0 50px;
   padding-bottom: 30px;
 `;
@@ -36,10 +36,10 @@ export const ProjectCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   height: 500px;
   width: 370px;
-  padding: 30px;
+  padding: 25px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 

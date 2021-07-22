@@ -17,8 +17,8 @@ function SideBar(props: { isOpen: boolean; toggle: () => void }) {
         <SidebarContent>
           <SidebarLink to="about">About</SidebarLink>
           <SidebarLink to="projects">Projects</SidebarLink>
-          <SidebarLink to="classes">Classes</SidebarLink>
           <SidebarLink to="resume">Resume</SidebarLink>
+          <SidebarLink to="skills">Skills</SidebarLink>
         </SidebarContent>
       </SidebarWrapper>
     </SidebarContainer>
