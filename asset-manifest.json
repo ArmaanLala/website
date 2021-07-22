@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/website/static/css/main.4d467896.chunk.css",
-    "main.js": "/website/static/js/main.c733a569.chunk.js",
-    "main.js.map": "/website/static/js/main.c733a569.chunk.js.map",
+    "main.js": "/website/static/js/main.ba2dd76d.chunk.js",
+    "main.js.map": "/website/static/js/main.ba2dd76d.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.c4068114.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.c4068114.js.map",
-    "static/js/2.f9e472f5.chunk.js": "/website/static/js/2.f9e472f5.chunk.js",
-    "static/js/2.f9e472f5.chunk.js.map": "/website/static/js/2.f9e472f5.chunk.js.map",
+    "static/js/2.0e0f4105.chunk.js": "/website/static/js/2.0e0f4105.chunk.js",
+    "static/js/2.0e0f4105.chunk.js.map": "/website/static/js/2.0e0f4105.chunk.js.map",
     "index.html": "/website/index.html",
     "static/css/main.4d467896.chunk.css.map": "/website/static/css/main.4d467896.chunk.css.map",
-    "static/js/2.f9e472f5.chunk.js.LICENSE.txt": "/website/static/js/2.f9e472f5.chunk.js.LICENSE.txt",
+    "static/js/2.0e0f4105.chunk.js.LICENSE.txt": "/website/static/js/2.0e0f4105.chunk.js.LICENSE.txt",
     "static/media/IT.bfe10f9a.jpg": "/website/static/media/IT.bfe10f9a.jpg",
     "static/media/arduino-original.57bea899.svg": "/website/static/media/arduino-original.57bea899.svg",
     "static/media/bash-original.e22f4751.svg": "/website/static/media/bash-original.e22f4751.svg",
@@ -20,6 +20,7 @@
     "static/media/csharp-original.4b8080ff.svg": "/website/static/media/csharp-original.4b8080ff.svg",
     "static/media/css3-original.39769a8b.svg": "/website/static/media/css3-original.39769a8b.svg",
     "static/media/docker-original.1d41320c.svg": "/website/static/media/docker-original.1d41320c.svg",
+    "static/media/eagle.44807528.png": "/website/static/media/eagle.44807528.png",
     "static/media/electron-original.2ae17ce2.svg": "/website/static/media/electron-original.2ae17ce2.svg",
     "static/media/firebase-plain.0d5ec3e6.svg": "/website/static/media/firebase-plain.0d5ec3e6.svg",
     "static/media/flutter-original.5be541dd.svg": "/website/static/media/flutter-original.5be541dd.svg",
@@ -27,10 +28,12 @@
     "static/media/heroku-original.a29b3a87.svg": "/website/static/media/heroku-original.a29b3a87.svg",
     "static/media/html5-original.8664168d.svg": "/website/static/media/html5-original.8664168d.svg",
     "static/media/image.83660a3d.jpg": "/website/static/media/image.83660a3d.jpg",
+    "static/media/invEZ.b00367b9.png": "/website/static/media/invEZ.b00367b9.png",
     "static/media/java-original.a751bad6.svg": "/website/static/media/java-original.a751bad6.svg",
     "static/media/javascript-original.4c1b5332.svg": "/website/static/media/javascript-original.4c1b5332.svg",
     "static/media/jupyter-original.04826829.svg": "/website/static/media/jupyter-original.04826829.svg",
     "static/media/kubernetes-plain.6fc5abac.svg": "/website/static/media/kubernetes-plain.6fc5abac.svg",
+    "static/media/latex.04352c1d.svg": "/website/static/media/latex.04352c1d.svg",
     "static/media/mongodb-original.6835c61a.svg": "/website/static/media/mongodb-original.6835c61a.svg",
     "static/media/nodejs-original.10c9e2aa.svg": "/website/static/media/nodejs-original.10c9e2aa.svg",
     "static/media/python-original.849d0b2b.svg": "/website/static/media/python-original.849d0b2b.svg",
@@ -47,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c4068114.js",
-    "static/js/2.f9e472f5.chunk.js",
+    "static/js/2.0e0f4105.chunk.js",
     "static/css/main.4d467896.chunk.css",
-    "static/js/main.c733a569.chunk.js"
+    "static/js/main.ba2dd76d.chunk.js"
   ]
 }
