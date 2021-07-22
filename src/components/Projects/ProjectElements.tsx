@@ -38,7 +38,7 @@ export const ProjectCard = styled.div`
   align-items: center;
   border-radius: 10px;
   height: 500px;
-  width: 400px;
+  width: 370px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
