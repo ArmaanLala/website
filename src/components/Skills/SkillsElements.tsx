@@ -94,6 +94,7 @@ export const ExtraWrapper = styled.div`
   justify-content: center;
   grid-gap: 16px;
   padding: 0 20px;
+  width: 80%;
 `;
 
 export const TinyCard = styled.div`

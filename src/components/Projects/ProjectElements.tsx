@@ -22,30 +22,23 @@ export const ProjectContainer = styled.div`
 export const ProjectWrapper = styled.div`
   /* max-width: 1000px; */
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   grid-gap: 16px;
   padding: 0 50px;
   padding-bottom: 30px;
-
-  @media screen and (max-width: 1300px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 `;
 
 export const ProjectCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 340px;
+  height: 500px;
+  width: 400px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -55,11 +48,20 @@ export const ProjectCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 600px) {
+    height: fit-content;
+    width: 100%;
+  }
 `;
 
 export const ProjectImage = styled.img`
+  min-height: 160px;
+  min-width: 160px;
   height: 160px;
   width: 160px;
+  max-height: 160px;
+  max-width: fit-content;
   margin-bottom: 10px;
 `;
 
@@ -82,6 +84,9 @@ export const ProjectH2 = styled.h2`
 export const ProjectP = styled.p`
   font-size: 1rem;
   text-align: center;
+  margin: 1rem;
+  width: 100%;
+  height: 50%;
 `;
 
 export const ExtraWrapper = styled.div`
@@ -119,4 +124,8 @@ export const TinyCard = styled.div`
 export const TinyImage = styled.img`
   height: 100px;
   width: 100px;
+`;
+export const IconLink = styled.a`
+  color: #000;
+  font-size: 24px;
 `;
