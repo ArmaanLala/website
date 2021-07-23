@@ -23,7 +23,7 @@ function Experience() {
         <ExperienceRow>
           <Col1>
             <TextWrapper>
-              <TopLine>No more Generics</TopLine>
+              {/* <TopLine>No more Generics</TopLine> */}
               <Heading>Experience</Heading>
               <Location>
                 NCR Corporation Software Engineering Intern <br />
