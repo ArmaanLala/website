@@ -41,7 +41,7 @@ function Navbar(props: { toggle: () => void }) {
               smooth={true}
               duration={500}
               spy={true}
-              offset={-80}
+              offset={-75}
             >
               About
             </NavLink>
@@ -52,7 +52,7 @@ function Navbar(props: { toggle: () => void }) {
               smooth={true}
               duration={500}
               spy={true}
-              offset={-80}
+              offset={-75}
             >
               Projects
             </NavLink>
@@ -64,7 +64,7 @@ function Navbar(props: { toggle: () => void }) {
               smooth={true}
               duration={500}
               spy={true}
-              offset={-80}
+              offset={-75}
             >
               Resume
             </NavLink>
@@ -75,7 +75,7 @@ function Navbar(props: { toggle: () => void }) {
               smooth={true}
               duration={500}
               spy={true}
-              offset={-80}
+              offset={-75}
             >
               Skills
             </NavLink>

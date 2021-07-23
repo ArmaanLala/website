@@ -13,7 +13,7 @@ function Resume() {
       <ResumeWrapper>
         <ResumeRow>
           <TextWrapper>
-            <Heading>Resume Stuff Here</Heading>
+            <Heading>Résumé</Heading>
           </TextWrapper>
         </ResumeRow>
         <Subtitle href="Resume.pdf" target="blank">

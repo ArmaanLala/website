@@ -3,15 +3,22 @@ import styled from 'styled-components';
 export const ExperienceContainer = styled.div`
   color: #fff;
   background: #f9f9f9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 50vh;
+  height: fit-content;
+  justify-content: center;
+
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
 `;
 
 export const ExperienceWrapper = styled.div`
+  height: fit-content;
   display: grid;
   z-index: 1;
-  height: 860px;
+  /* min-height: 50vh; */
   width: 100%;
   max-width: 10000px;
   margin-right: auto;
@@ -44,9 +51,9 @@ export const Col2 = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  max-width: 600px;
   padding-top: 0;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 `;
 
 export const TopLine = styled.p`
@@ -73,6 +80,15 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 600px;
   margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #010606;
+  white-space: pre-line;
+`;
+
+export const Location = styled.p`
+  font-weight: 700;
+  max-width: 600px;
   font-size: 18px;
   line-height: 24px;
   color: #010606;
