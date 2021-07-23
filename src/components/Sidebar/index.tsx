@@ -15,10 +15,18 @@ function SideBar(props: { isOpen: boolean; toggle: () => void }) {
       </Icon>
       <SidebarWrapper>
         <SidebarContent>
-          <SidebarLink to="about">About</SidebarLink>
-          <SidebarLink to="projects">Projects</SidebarLink>
-          <SidebarLink to="resume">Resume</SidebarLink>
-          <SidebarLink to="skills">Skills</SidebarLink>
+          <SidebarLink to="about" onClick={props.toggle}>
+            About
+          </SidebarLink>
+          <SidebarLink to="projects" onClick={props.toggle}>
+            Projects
+          </SidebarLink>
+          <SidebarLink to="resume" onClick={props.toggle}>
+            Resume
+          </SidebarLink>
+          <SidebarLink to="skills" onClick={props.toggle}>
+            Skills
+          </SidebarLink>
         </SidebarContent>
       </SidebarWrapper>
     </SidebarContainer>
