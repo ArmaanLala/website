@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   color: #fff;
-  background: #010606;
+  background: #020a1d;
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -50,7 +50,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: #183ed3;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;

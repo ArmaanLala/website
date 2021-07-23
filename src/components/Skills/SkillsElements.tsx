@@ -9,7 +9,7 @@ export const SkillsContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #010606;
+  background-color: #020a1d;
 
   @media screen and (max-width: 1300px) {
     height: max-content;

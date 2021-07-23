@@ -21,7 +21,7 @@ function About() {
         <AboutRow>
           <Col1>
             <TextWrapper>
-              <TopLine>Sick Website Skills</TopLine>
+              {/* <TopLine>Sick Website Skills</TopLine> */}
               <Heading>About Me</Heading>
               <Subtitle>
                 I am currently a third year student at the Georgia Instutite of

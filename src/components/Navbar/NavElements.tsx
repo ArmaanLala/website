@@ -4,7 +4,7 @@ interface Props {
   readonly scrollNav: boolean;
 }
 export const Nav = styled.nav<Props>`
-  background: ${(props) => (props.scrollNav ? '#000' : 'trasparent')};
+  background: ${(props) => (props.scrollNav ? '#020a1d' : 'trasparent')};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -82,6 +82,6 @@ export const NavLink = styled(Link)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid red;
+    border-bottom: 5px solid #183ed3;
   }
 `;
