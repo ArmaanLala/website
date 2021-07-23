@@ -9,7 +9,7 @@ import {
   ProjectWrapper,
   IconLink,
 } from './ProjectElements';
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import ReactSVG from '../../resources/react/react-original.svg';
 import LatexSVG from '../../resources/latex.svg';
 

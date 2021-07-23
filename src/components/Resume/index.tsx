@@ -20,6 +20,7 @@ function Resume() {
           If the PDF does not load, please click here.
         </Subtitle>
         <iframe
+          title="Resume Google Drive"
           src="https://drive.google.com/file/d/1RqJHP3iF4Pd16coTWkg_0oQZPwTek1fg/preview"
           style={{ margin: '0 auto', height: '50vh', width: '80%' }}
         ></iframe>
