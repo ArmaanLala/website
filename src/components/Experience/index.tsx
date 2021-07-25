@@ -6,7 +6,6 @@ import {
   Col1,
   Col2,
   TextWrapper,
-  TopLine,
   Heading,
   Subtitle,
   ImgWrap,

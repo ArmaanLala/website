@@ -51,61 +51,36 @@ function Skills() {
         <SkillsCard>
           <SkillsImage src={ReactSVG} />
           <SkillsH2>React.js</SkillsH2>
-          <SkillsP>I am pretty poggers at React</SkillsP>
+          <SkillsP>
+            Developed multiple Single-Page-Applications using React.js
+          </SkillsP>
         </SkillsCard>
         <SkillsCard>
           <SkillsImage src={PythonSVG} />
           <SkillsH2>Python</SkillsH2>
-          <SkillsP>Sick ML(G) Python Scripts</SkillsP>
+          <SkillsP>
+            Competitive Programming and AI all written in Python
+          </SkillsP>
         </SkillsCard>
         <SkillsCard>
           <SkillsImage src={CppSVG} />
           <SkillsH2>C++</SkillsH2>
-          <SkillsP>C++ is the joke</SkillsP>
+          <SkillsP>Unix Systems Programming all done in C++</SkillsP>
         </SkillsCard>
         <SkillsCard>
           <SkillsImage src={JavaSVG} />
           <SkillsH2>Java</SkillsH2>
-          <SkillsP>Man do I need coffee</SkillsP>
+          <SkillsP>
+            Command-line and GUI apps made using Java and JavaFX
+          </SkillsP>
         </SkillsCard>
         <SkillsCard>
           <SkillsImage src={TypeSVG} />
           <SkillsH2>TypeScript</SkillsH2>
-          <SkillsP>Typescript {'>>'} Javascript</SkillsP>
+          <SkillsP>Used for both Front-end and Back-end development</SkillsP>
         </SkillsCard>
       </SkillsWrapper>
       <SkillsH1>Familiar Technologies</SkillsH1>
-      {/* import ArduinoSVG from '../../resources/arduino/arduino-original.svg';
-import BashSVG from '../../resources/bash/bash-original.svg';
-import BootstrapSVG from '../../resources/bootstrap/bootstrap-original.svg';
-import BulmaSVG from '../../resources/bulma/bulma-original.svg';
-import CSVG from '../../resources/c-original.svg';
-import CSharpSVG from '../../resources/csharp/csharp-original.svg';
-import CppSVG from '../../resources/cplusplus/cplusplus-original.svg';
-import CssSVG from '../../resources/css3/css3-original.svg';
-import DockerSVG from '../../resources/docker/docker-original.svg';
-import ElectronSVG from '../../resources/electron/electron-original.svg';
-import FirebaseSVG from '../../resources/firebase/firebase-original.svg';
-import FlutterSVG from '../../resources/flutter/flutter-original.svg';
-import GitSVG from '../../resources/git/git-original.svg';
-import HerokuSVG from '../../resources/heroku/heroku-original.svg';
-import HtmlSVG from '../../resources/html5/html5-original.svg';
-import JavaSVG from '../../resources/java/java-original.svg';
-import JavascriptSVG from '../../resources/javascript/javascript-original.svg';
-import JupyterSVG from '../../resources/jupyter/jupyter-original.svg';
-import KubernetesSVG from '../../resources/kubernetes/kubernetes-original.svg';
-import MongoDBSVG from '../../resources/mongodb/mongodb-original.svg';
-import NodeSVG from '../../resources/nodejs/nodejs-original.svg';
-import PythonSVG from '../../resources/python/python-original.svg';
-import RaspberryPiSVG from '../../resources/raspberrypi/raspberrypi-original.svg';
-import ReactSVG from '../../resources/react/react-original.svg';
-import RustSVG from '../../resources/rust/rust-plain.svg';
-import SwiftSVG from '../../resources/swift/swift-original.svg';
-import TensorFlowSVG from '../../resources/tensorflow/tensorflow-original.svg';
-import TypeSVG from '../../resources/typescript/typescript-original.svg';
-import UbuntuSVG from '../../resources/ubuntu/ubuntu-original.svg';
-import VimSVG from '../../resources/vim/vim-original.svg';
-import VueJsSVG from '../../resources/vuejs/vuejs-original.svg'; */}
       <ExtraWrapper>
         <TinyCard>
           <TinyImage src={ArduinoSVG} />
